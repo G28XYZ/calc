@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/font-awesome.min.css);
+@import url(../vendor/fonts.css);
+
+/* <page> */
+@import url(../blocks/page/page.css);
+/* </page> */
+
+/* <content> */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/_classic/content_classic.css);
+/* </content> */
+
+/* <display> */
+@import url(../blocks/display/display.css);
+@import url(../blocks/display/_classic/display_classic.css);
+@import url(../blocks/display/__input/display__input.css);
+/* </display> */
+
+/* <numbers> */
+@import url(../blocks/numbers/numbers.css);
+/* </numbers> */
+
+/* <number> */
+@import url(../blocks/number/number.css);
+@import url(../blocks/numbers/__zero/numbers__zero.css);
+@import url(../blocks/number/_classic/number_classic.css);
+/* </number> */
+
+/* <operators> */
+@import url(../blocks/operators/operators.css);
+@import url(../blocks/operators/__row/operators__row.css);
+@import url(../blocks/operators/__column/operators__column.css);
+@import url(../blocks/operators/__equal/operators__equal.css);
+/* </operators> */
+
+/* <operator> */
+@import url(../blocks/operator/operator.css);
+@import url(../blocks/operator/_classic/operator_classic.css);
+/* </operator> */
+
+/* <> */
+/* </> */

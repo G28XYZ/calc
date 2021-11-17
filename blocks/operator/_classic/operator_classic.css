@@ -1,0 +1,15 @@
+.operator_classic {
+  background: linear-gradient(#e9f2fa 50%, #bbcfec);
+  border-radius: 2px;
+  border: 1px solid rgba(52, 59, 63, 0.5);
+}
+
+.operator_classic:hover {
+  background: linear-gradient(#fde3bb 50%, #f5b24e);
+  border: 1px solid #f5b24e;
+  transition: border 2s;
+}
+
+.operator_classic:active {
+  background: #f5b24e;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Calc</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="" alt="" class="header__logo" />
+      </header>
+
+      <main class="content">
+        <section class="display">
+          <div class="display__output"></div>
+          <div class="display__input">0</div>
+        </section>
+
+        <div class="operators__row">
+          <button class="operator operators__back">&xlarr;</button>
+          <button class="operator operators__reset">ce</button>
+          <button class="operator operators__reset-all">c</button>
+          <button class="operator operators__plus-minus">&plusmn;</button>
+          <button class="operator operators__sqrt">&radic;</button>
+        </div>
+        <div class="operators__column">
+          <button class="operator operators__division">/</button>
+          <button class="operator operators__percent">%</button>
+          <button class="operator operators__multip">*</button>
+          <button class="operator operators__fraction">1/x</button>
+          <button class="operator operators__minus">-</button>
+          <button class="operator operators__plus">+</button>
+          <button class="operator operators__equal">=</button>
+        </div>
+
+        <seciton class="numbers">
+          <button class="number numbers__seven">7</button>
+          <button class="number numbers__eight">8</button>
+          <button class="number numbers__nine">9</button>
+          <button class="number numbers__four">4</button>
+          <button class="number numbers__five">5</button>
+          <button class="number numbers__six">6</button>
+          <button class="number numbers__one">1</button>
+          <button class="number numbers__two">2</button>
+          <button class="number numbers__three">3</button>
+          <button class="number numbers__zero">0</button>
+          <button class="number numbers__comma">,</button>
+        </seciton>
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
+</html>
