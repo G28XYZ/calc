@@ -1,0 +1,14 @@
+.calc {
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, max-content);
+  grid-template-areas:
+    "d d d d d"
+    "o-r o-r o-r o-r o-r"
+    "n n n o-c o-c"
+    "n n n o-c o-c"
+    "n n n o-c o-c"
+    "n n n o-c o-c";
+  gap: 5px;
+}

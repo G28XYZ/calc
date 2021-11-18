@@ -2,6 +2,7 @@
   background: linear-gradient(#e9f2fa 30%, #c5d9f5, #e9f2fa 70%);
   border-radius: 2px;
   border: 1px solid rgba(52, 59, 63, 0.5);
+  height: 50px;
 }
 
 .number_classic:hover {

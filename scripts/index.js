@@ -35,10 +35,7 @@ const actions = {
 };
 
 function calcFunc() {
-  const res = parseBrackets(
-    // displayOutput.textContent.replace(",", ".") + displayInput.textContent
-    displayOutput.textContent + displayInput.textContent
-  );
+  const res = parseBrackets(displayOutput.textContent + displayInput.textContent);
   return res.replace(".", ",");
 }
 
@@ -102,12 +99,10 @@ function addToOutput(evt) {
   isReset = 1;
   lastOperator = evt.target.textContent;
   if (displayOutput.textContent === "") {
-    displayOutput.textContent =
-      displayInput.textContent + evt.target.textContent;
+    displayOutput.textContent = displayInput.textContent + evt.target.textContent;
     return;
   }
-  displayOutput.textContent +=
-    displayInput.textContent + evt.target.textContent;
+  displayOutput.textContent += displayInput.textContent + evt.target.textContent;
 }
 
 function equal(evt) {
@@ -117,10 +112,8 @@ function equal(evt) {
 
 function changeOperator(evt) {
   displayOutput.textContent =
-    displayOutput.textContent.substring(
-      0,
-      displayOutput.textContent.length - 1
-    ) + evt.target.textContent;
+    displayOutput.textContent.substring(0, displayOutput.textContent.length - 1) +
+    evt.target.textContent;
   lastOperator = evt.target.textContent;
 }
 

@@ -12,6 +12,11 @@
 @import url(../blocks/content/_classic/content_classic.css);
 /* </content> */
 
+/* <calc> */
+@import url(../blocks/calc/calc.css);
+@import url(../blocks/calc/_classic/calc_classic.css);
+/* </calc> */
+
 /* <display> */
 @import url(../blocks/display/display.css);
 @import url(../blocks/display/_classic/display_classic.css);
