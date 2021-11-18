@@ -17,12 +17,18 @@ function addToInput(evt) {
     isReset = 0;
   }
   displayInput.textContent += evt.target.textContent;
+  addToOutput(evt);
 }
 
 function addToOutput(evt) {
-  displayOutput.textContent += expression.char
-    ? expression.char + displayInput.textContent + evt.target.textContent
-    : displayInput.textContent + evt.target.textContent;
+  if (displayOutput.textContent === "") {
+    displayOutput.textContent = displayInput.textContent;
+    return;
+  }
+  displayOutput.textContent +=
+    displayOutput.textContent[displayOutput.textContent.length - 1] === "+"
+      ? displayInput.textContent
+      : expression.char;
 }
 
 for (let button of buttonsNumber) {
@@ -31,6 +37,7 @@ for (let button of buttonsNumber) {
 
 function equal(evt) {
   expression.func(evt);
+
   displayOutput.textContent = result;
   return;
 }
@@ -38,10 +45,10 @@ function equal(evt) {
 function sum(evt) {
   console.log(parseInt(displayInput.textContent));
   result += parseInt(displayInput.textContent);
-  addToOutput(evt);
   isReset = 1;
   expression.func = sum;
   expression.char = "+";
+  addToOutput(evt);
 }
 
 for (let operator of buttonsOperator) {
