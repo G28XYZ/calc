@@ -1,0 +1,7 @@
+.calc_android {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  font-family: "Roboto";
+  --gap-val: 1px;
+  gap: var(--gap-val);
+}

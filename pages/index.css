@@ -10,16 +10,25 @@
 /* <content> */
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/_classic/content_classic.css);
+@import url(../blocks/content/_android/content_android.css);
 /* </content> */
 
 /* <calc> */
 @import url(../blocks/calc/calc.css);
 @import url(../blocks/calc/_classic/calc_classic.css);
+@import url(../blocks/calc/_android/calc_andoid.css);
 /* </calc> */
+
+/* <tabs> */
+@import url(../blocks/tabs/tabs.css);
+@import url(../blocks/tabs/__view/tabs__view.css);
+@import url(../blocks/tabs/__title/tabs__title.css);
+/* </tabs> */
 
 /* <display> */
 @import url(../blocks/display/display.css);
 @import url(../blocks/display/_classic/display_classic.css);
+@import url(../blocks/display/_android/display_android.css);
 @import url(../blocks/display/__input/display__input.css);
 /* </display> */
 
@@ -31,6 +40,7 @@
 @import url(../blocks/number/number.css);
 @import url(../blocks/numbers/__zero/numbers__zero.css);
 @import url(../blocks/number/_classic/number_classic.css);
+@import url(../blocks/number/_android/number_android.css);
 /* </number> */
 
 /* <operators> */
@@ -43,6 +53,7 @@
 /* <operator> */
 @import url(../blocks/operator/operator.css);
 @import url(../blocks/operator/_classic/operator_classic.css);
+@import url(../blocks/operator/_android/operator_android.css);
 /* </operator> */
 
 /* <> */

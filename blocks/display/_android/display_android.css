@@ -1,0 +1,7 @@
+.display_android {
+  height: 100px;
+  text-align: end;
+  padding: 3px;
+  box-sizing: border-box;
+  background-color: white;
+}

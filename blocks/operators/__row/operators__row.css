@@ -2,5 +2,5 @@
   grid-area: o-r;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 5px;
+  gap: var(--gap-val);
 }

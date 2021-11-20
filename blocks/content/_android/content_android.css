@@ -1,6 +1,5 @@
-.content_classic {
+.content_android {
   border: 2px solid #3b89feba;
-  border-radius: 5px;
   padding: 5px;
   font-size: 20px;
   gap: var(--gap-val);
