@@ -1,6 +1,6 @@
 ### Демо
 
-<img src="https://github.com/G28XYZ/G28XYZ/blob/main/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202022-02-14%20%D0%B2%2022.52.07.png" alt="Калькулятор">
+<img src="https://github.com/G28XYZ/G28XYZ/blob/main/images/demo%20calc.mov" alt="Калькулятор">
 
 # Проект "Калькулятор"
 
